@@ -124,11 +124,11 @@ console.log(`Good morning ${userName}`)
 if (time >= 5 && time <= 12){
   console.log(`Good morning ${userName}`)
   } else if(time >= 13 && time <= 18){
-    console.log(`Good Afternoon`)
+    console.log(`Good Afternoon ${userName}`)
   } else if(time >= 19 && time <= 24){
-    console.log(`Good Evening`)
+    console.log(`Good Evening ${userName}`)
   } else if(time >= 0 && time <= 4){
-    console.log(`Good Evening`)
+    console.log(`Good Evening ${userName}`)
   } else {
     console.log(`Irasete neteisinga skaiciu`)
   }
